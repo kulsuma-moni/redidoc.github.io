@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> -->
+        <title>Resume - Resume builder Page</title>
+
+        <!-- Styles -->
+        <link href="css/collection.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
+
+        <!-- Scripts -->
+        <script src="js/other.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+        <!-- Sidebar -->
+        <aside class="sidebar sidebar-boxed sidebar-dark">  
+            <ul class="nav sidenav dropable">
+                <li><a href="#documenter_cover">Features</a></li>
+                <li><a href="#getting_started" title="Getting Started">Getting Started</a></li>
+                <li><a href="#head_css_structure" title="HEAD CSS Structure">HEAD CSS Structure</a></li>
+                <li><a href="#top_nav_menu" title="Top Nav Menu">Sidebar</a></li>
+                <li><a href="#javascript_structure" title="Javascript Structure">Javascript Structure</a></li>
+                <li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+                <li><a href="#responsive_media_query" title="Responsive Media Query">Responsive Media Query</a></li>
+                <li><a href="#fonts_used" title="Fonts used">Fonts used</a></li>
+                <li><a href="#credits" title="Credits">Credits</a></li>
+                <li><a href="#supports" title="Support">Support</a></li>
+            </ul>
+        </aside>
+        <!-- END Sidebar -->
+
+        <header class="site-header navbar-transparent"> 
+            <!-- Banner -->
+            <div class="banner auto-size" style="background-color: #3378BD">
+                <div class="container-fluid text-white">
+                    <h1><strong>RESUME-</strong> Resume builder JS Template</h1>
+                </div>
+            </div>
+            <!-- END Banner --> 
+        </header>
+        
+        <main class="container-fluid"> 
+
+            <!-- Main content -->
+            <article class="main-content" role="main">
+                <section id="documenter_cover">
+                    <h2>RESUME- Resume builder JS Template</h2>
+                    <div id="documenter_buttons"> </div>
+                    Firstly, a huge thanks for purchasing this theme, your support is truly appreciated!
+                    <h6><strong>HTML Files:</strong></h6>
+                    <ul>
+                        <li>Home Page (<b>index.html</b>)</li>
+                        <li>Demo Teamplate 1(<b>resume_1.html</b>)</li>
+                        <li>Demo Teamplate 2(<b>resume_2.html</b>)</li>
+                    </ul>
+                    
+                    <h6><strong>Template Features:</strong></h6>
+                    <ul>
+                        <li><strong>One Page</strong> Demo</li>
+                        <li>Easy to customize</li>
+                        <li>HTML5 & CSS3 & Javascript</li>
+                        <li>Built With SASS</li>
+                        <li>Clean & Simple Design</li>
+                        <li>Fully Responsive Layout</li>
+                        <li>Crossbrowser Compatible with Edge, IE9+, Firefox, Safari, Opera, Chrome</li>
+                        <li>W3 Valid</li>
+                        <li>Fontawesome <strong>Free icons</strong></li>
+                        <li>Powered with Bootstrap <strong>(4.x)</strong></li>
+                        <li><strong>Well documented</strong></li>
+                    </ul>
+                    <hr>
+                    <ul>
+                        <li>Item Name : RESUME- Resume builder JS Template</li>
+                        <li>Created: August 10, 2021</li>
+                        <li>Last Update: August 10, 2021</li>
+                        <li>Version 0.1</li>
+                        <li>By: <a target="_blank" href="https://themeforest.net/user/theme_be/portfolio"> DelwarIt </a></li>
+                        <li>Email: <a href="mailto:delwarit@gmail.com">delwarit@gmail.com</a></li>
+                    </ul>
+                    <p></p>
+                </section>
+                
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h3>Getting Started</h3>
+                    </div>
+                    <p>Unzip the archive and find out the <strong>folder resume</strong>. There are all the template files in this folder.</p>
+                    <p>The <strong>file and folder structure</strong> is something like this:</p>
+                    <ol>
+                        <li><strong>assets/css</strong> — folder with css files. </li>
+                        <li><strong>assets/image</strong> — folder with image files. </li>
+                        <li><strong>assets/js</strong> — folder with Javascript files. </li>
+                        <li><strong>assets/webfonts</strong> — folder with icon fonts files. </li>
+                    </ol>
+                    <p>Upload the template files to server with the help of one of the FTP-clients like FileZilla. </p>
+                    <p>&nbsp; </p>
+                </section>
+                
+                <section id="head_css_structure">
+                    <div class="page-header">
+                        <h3>HEAD CSS Structure</h3>
+                    </div>
+                    <p> These are the <strong>css</strong> files which are loaded into the <strong>template</strong> in <strong>Head Section</strong>.</p>
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;!-- Links of CSS files --&gt;
+&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="assets/css/fontawesome.min.css"&gt;
+&lt;link rel="stylesheet" href="assets/css/all.min.css"&gt;
+&lt;link rel="stylesheet" href="assets/css/style.css"&gt;
+&lt;link rel="stylesheet" href="assets/css/responsive.css"&gt;
+</code>
+</pre class="brush:css">
+                </section>
+
+                <section id="top_nav_menu">
+                    <div class="page-header">
+                        <h3>Sidebar</h3>
+                    </div>
+                    <p>This is the basic structure of <strong>Sidebar:</strong></p>
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;!-- Animated Sidebar Start --&gt;
+    &lt;div class="animated_sidebar"&gt;
+        &lt;a class="s-sidebar__trigger"&gt;
+            &lt;i class="fa fa-bars"&gt;&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;div class="s-sidebar__nav"&gt;
+        &lt;!--Animated sidebar tab menu start --&gt;
+         &lt;nav class="resume_tab"&gt;
+           &lt;div class="nav nav-tabs" id="nav-tab" role="tablist"&gt;
+              &lt;a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"&gt;teamplate&lt;/a&gt;
+              &lt;a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"&gt;design&lt;/a&gt;
+              &lt;a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"&gt;navigation&lt;/a&gt;
+          &lt;/div&gt;
+      &lt;/nav&gt;
+      &lt;!--Animated sidebar tab menu end--&gt;
+      &lt;div class="tab-content" id="nav-tabContent"&gt;
+      &lt;!-- Demo teamplate tab start --&gt;
+      &lt;div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"&gt;
+          &lt;div class="row"&gt;
+              &lt;div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"&gt;
+                  &lt;div class="demo_tem demo_resume_1"&gt;
+                    &lt;img src="assets/image/117645194_342073096805313_5012019979046732364_n.jpg" alt="resume"&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"&gt;
+                  &lt;div class="demo_tem demo_resume_2"&gt;
+                    &lt;img src="assets/image/117791958_629542854353244_5115114841354379552_n.jpg" alt="resume"&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;!-- Demo teamplate tab end --&gt;
+      &lt;div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"&gt;
+            &lt;!-- COLOUR AREA START --&gt;
+          &lt;div class="row"&gt;
+              &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"&gt;
+                  &lt;div class="colour_area" id="colour_area"&gt;
+                      &lt;p&gt;background color&lt;/p&gt;
+                      &lt;div class="colour_box"&gt;
+                          &lt;span class="colour_1 rongila active"&gt;&lt;/span&gt;
+                          &lt;span class="colour_2 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_3 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_4 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_5 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_6 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_7 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_8 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_9 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_10 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_11 rongila"&gt;&lt;/span&gt;
+                          &lt;span class="colour_12 rongila"&gt;&lt;/span&gt;
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="row"&gt;
+              &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"&gt;
+                  &lt;div class="colour_area_2" id="colour_area_2"&gt;
+                      &lt;p&gt;font color&lt;/p&gt;
+                      &lt;div class="colour_box"&gt;
+                          &lt;span class="colour_13 rongila_2 active"&gt;&lt;/span&gt;
+                          &lt;span class="colour_14 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_15 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_16 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_17 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_18 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_19 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_20 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_21 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_22 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_23 rongila_2"&gt;&lt;/span&gt;
+                          &lt;span class="colour_24 rongila_2"&gt;&lt;/span&gt;
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+      &lt;!-- COLOUR AREA END --&gt;
+      &lt;div class="row"&gt;
+          &lt;div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"&gt;
+          &lt;!-- Font change area start --&gt;
+            &lt;div class="font_change"&gt;
+                  &lt;p&gt;font&lt;/p&gt;
+                  &lt;div class="dropdown text-center"&gt;
+                      &lt;button class="btn dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown"&gt;
+                        Default
+                      &lt;/button&gt;
+                      &lt;div class="dropdown-menu" aria-labelledby="dropdownMenu2"&gt;
+                        &lt;button class="dropdown-item font_1"&gt;playfair&lt;/button&gt;
+                        &lt;button class="dropdown-item font_2"&gt;Lato&lt;/button&gt;
+                        &lt;button class="dropdown-item font_3"&gt;Montserrat&lt;/button&gt;
+                        &lt;button class="dropdown-item font_4"&gt;Noto Sans JP&lt;/button&gt;
+                        &lt;button class="dropdown-item font_5"&gt;Open Sans&lt;/button&gt;
+                        &lt;button class="dropdown-item font_6"&gt;Playfair Display&lt;/button&gt;
+                        &lt;button class="dropdown-item font_7"&gt;Roboto Mono&lt;/button&gt;
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;!-- Font change area end --&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+       &lt;!-- Teamplate Navigation tab start --&gt;
+      &lt;div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"&gt;
+      &lt;!-- Teamplate Navigation area start --&gt;						                     
+      &lt;div class="person_side_bar"&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;h4 class="s-sidebar__nav-link"&gt;
+              &lt;span&gt;summary 
+                &lt;span&gt;
+                  &lt;label class="toggler_btn"&gt;
+                    &lt;input type="checkbox" id="myCheck_1" checked&gt;
+                    &lt;span class="toggle_switch sum_switch"&gt;&lt;/span&gt;
+                  &lt;/label&gt;
+                &lt;/span&gt;
+              &lt;/span&gt;
+            &lt;/h4&gt;
+          &lt;/li&gt;
+           &lt;li&gt;
+             &lt;h4 class="s-sidebar__nav-link"&gt;
+               &lt;span&gt;work experience 
+                 &lt;span&gt;
+                   &lt;label class="toggler_btn"&gt;
+                     &lt;input type="checkbox" id="myCheck_2" checked&gt;
+                     &lt;span class="toggle_switch work_switch"&gt;&lt;/span&gt;
+                   &lt;/label&gt;
+                 &lt;/span&gt;
+               &lt;/span&gt;
+             &lt;/h4&gt;
+           &lt;/li&gt;
+           &lt;li&gt;
+             &lt;h4 class="s-sidebar__nav-link"&gt;
+               &lt;span&gt;education
+                 &lt;span&gt;
+                   &lt;label class="toggler_btn"&gt;
+                     &lt;input type="checkbox" id="myCheck_3" checked&gt;
+                     &lt;span class="toggle_switch edu_switch"&gt;&lt;/span&gt;
+                   &lt;/label&gt;
+                 &lt;/span&gt;
+               &lt;/span&gt;
+             &lt;/h4&gt;
+           &lt;/li&gt;
+           &lt;li&gt;
+             &lt;h4 class="s-sidebar__nav-link"&gt;
+               &lt;span&gt;skill 
+                 &lt;span&gt;
+                   &lt;label class="toggler_btn"&gt;
+                     &lt;input type="checkbox" id="myCheck_4" checked&gt;
+                     &lt;span class="toggle_switch skill_switch"&gt;&lt;/span&gt;
+                   &lt;/label&gt;
+                 &lt;/span&gt;
+               &lt;/span&gt;
+             &lt;/h4&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;h4 class="s-sidebar__nav-link"&gt;
+              &lt;span&gt;language
+                &lt;span&gt;
+                    &lt;label class="toggler_btn"&gt;
+                        &lt;input type="checkbox" id="myCheck_5" checked&gt;
+                        &lt;span class="toggle_switch lan_switch"&gt;&lt;/span&gt;
+                    &lt;/label&gt;
+                  &lt;/span&gt;
+              &lt;/span&gt;
+            &lt;/h4&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;h4 class="s-sidebar__nav-link">
+              &lt;span&gt;referance
+                &lt;span&gt;
+                  &lt;label class="toggler_btn"&gt;
+                      &lt;input type="checkbox" id="myCheck_6" checked&gt;
+                      &lt;span class="toggle_switch ref_switch"&gt;&lt;/span&gt;
+                  &lt;/label&gt;
+                &lt;/span&gt;
+              &lt;/span&gt;
+            &lt;/h4&gt;
+         &lt;/li&gt;
+         &lt;li&gt;
+            &lt;h4 class="s-sidebar__nav-link"&gt;
+              &lt;span&gt;link
+                &lt;span&gt;
+                  &lt;label class="toggler_btn"&gt;
+                      &lt;input type="checkbox" id="myCheck_7" checked&gt;
+                      &lt;span class="toggle_switch link_switch"&gt;&lt;/span&gt;
+                    &lt;/label&gt;
+                  &lt;/span&gt;
+                &lt;/span&gt;
+            &lt;/h4&gt;
+         &lt;/li&gt;
+         &lt;li&gt;
+              &lt;h4 class="s-sidebar__nav-link"&gt;
+              &lt;span&gt; courses
+                  &lt;span&gt;
+                  &lt;label class="toggler_btn"&gt;
+                      &lt;input type="checkbox" id="myCheck_8" checked&gt;
+                    &lt;span class="toggle_switch cour_switch"&gt; &lt;/span&gt;
+                    &lt;/label&gt;
+                  &lt;/span&gt;
+                &lt;/span&gt;
+              &lt;/h4&gt;
+            &lt;/li&gt;
+          &lt;li&gt;
+              &lt;h4 class="s-sidebar__nav-link"&gt;
+                  &lt;span&gt;achievement
+                    &lt;span&gt;
+                      &lt;label class="toggler_btn"&gt;
+                        &lt;input type="checkbox" id="myCheck_9" checked&gt;
+                        &lt;span class="toggle_switch achive_switch"&gt;&lt;/span&gt;
+                      &lt;/label&gt;
+                    &lt;/span&gt;
+                  &lt;/span&gt;
+                &lt;/h4&gt;
+              &lt;/li&gt;
+            &lt;li&gt;
+              &lt;h4 class="s-sidebar__nav-link"&gt;
+                  &lt;span&gt;text section
+                    &lt;span&gt;
+                        &lt;label class="toggler_btn"&gt;
+                            &lt;input type="checkbox" id="myCheck_10" checked&gt;
+                            &lt;span class="toggle_switch te_switch"&gt;&lt;/span&gt;
+                        &lt;/label&gt;
+                    &lt;/span&gt;
+                  &lt;/span&gt;
+                &lt;/h4&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+       &lt;!-- Teamplate Navigation area end --&gt;
+       &lt;!-- Teamplate Navigation button start --&gt;
+       &lt;div class="nav_btn"&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href="#" class="btn cancel">cancel&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#" class="btn save">save&lt;/a&gt;&lt;/li>
+          &lt;/ul&gt;
+        &lt;/div&gt;	
+        &lt;!-- Teamplate Navigation button end --&gt;
+       &lt;/div&gt;
+    &lt;!-- Teamplate Navigation tab end --&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div>&lt;!--Animated Sidebar end --&gt;
+</code>
+</pre>
+                </section>
+
+                <section id="javascript_structure">
+                    <div class="page-header">
+                        <h3>Javascript Structure</h3>
+                    </div>
+                    <p> These are the <strong>JS</strong> files which are loaded into the <strong>template</strong> before the end of the <strong>HEAD and BODY Section</strong>.</p>
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;!-- All Javascript Plugin File here --&gt;
+&lt;script src="assets/js/jquery-3.4.1.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/plugin/smoothscroll.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/main.js"&gt;&lt;/script&gt;
+</code>
+</pre>
+                </section>
+                
+                <!-- <section id="html_structure">
+                    <div class="page-header">
+                        <h3>HTML Structure</h3>
+                    </div>
+                    This template has a responsive layout and is based on the <strong>Bootstrap Framework</strong>. For more information about this visit <a target="_blank" href="http://getbootstrap.com/css/"><strong>Bootstrap CSS</strong></a>.
+                    <p>The general template structure is the same throughout the template, each of the part is under a section with a section id name. Here is the <strong>general structure:</strong></p>
+<pre class="line-numbers">
+<code class="language-markup">
+&lt;!-- Banner Area --&gt;
+&lt;div class="banner-area"&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="banner-text"&gt;
+            &lt;span class="wow fadeInDown"&gt;Perfect platform for you&lt;/span&gt;
+            &lt;h1 class="wow fadeInUp"&gt;Start And Grow  Your Business&lt;/h1&gt;
+            &lt;p class="wow fadeInUp"&gt;Starting a new business comes with a vast amount of steps. These 
+            are steps, which have to be not just taken in advance.&lt;/p&gt;
+            &lt;a class="main-btn" href=""&gt;Get Started&lt;/a&gt;
+            &lt;a href="https://www.bigbuckbunny.org/" target="_blank" class="video-btn redbg popup-youtube"&gt;
+                &lt;i class="fas fa-play"&gt;&lt;/i&gt;
+                &lt;span class="ripple redbg"&gt;&lt;/span&gt;
+                &lt;span class="ripple redbg"&gt;&lt;/span&gt;
+                &lt;span class="ripple redbg"&gt;&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- End Banner Area --&gt;
+</code>
+</pre>
+                </section> -->
+                
+                <section id="responsive_media_query">
+                    <div class="page-header">
+                        <h3>Responsive Media Query</h3>
+                    </div>
+                    <p>We have added some utility classes with media queries for <strong>different screen sizes</strong>. All of the custom responsive css code are under the responsive.css file at the bottom showing, how many screen size we truck for media query:</p>
+                    <div class="table-responsive">
+                        <table style="font-size: 13px;" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="width: 20%;"> Display Size: </th>
+                                    <th> Details </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                <td style="width: 20%;">(min-width: 320px) -(max-width:575px)</td>
+                <td>
+                <pre class="line-numbers">
+                    <code class="lang-css">
+                    /* Here is the css code for (min-width: 320px) and(max-width:575px) */
+
+                    /* Small Devices, Mobile, SmartPhone, Iphone ----------- */
+                    @media (min-width: 320px) and(max-width:575px) {
+
+                    }
+
+                    </code>
+                </pre>
+                </td>
+                                </tr>
+								<tr>
+                <td style="width: 20%;">(min-width: 576px) and(max-width:767px)</td>
+                <td>
+                <pre class="line-numbers">
+                    <code class="lang-css">
+                    /* Here is the css code for (min-width: 576px) and(max-width:767px) */
+
+                    /* Small Devices, Mobile, SmartPhone, Iphone ----------- */
+                    @media (min-width: 576px) and(max-width:767px) {
+
+                    }
+
+                    </code>
+                </pre>
+                </td>
+                                </tr>
+								<tr>
+                <td style="width: 20%;">(min-width: 768px) and (max-width: 991px)</td>
+                <td>
+                <pre class="line-numbers">
+                    <code class="lang-css">
+                    /* Here is the css code for (min-width: 768px) and (max-width: 991px) */
+
+                    /* Small Devices, Mobile, SmartPhone, Iphone ----------- */
+                    @media (min-width: 768px) and (max-width: 991px) {
+
+                    }
+
+                    </code>
+                </pre>
+                </td>
+                </tr>
+                <tr>
+                  <td style="width: 20%;">(min-width: 992px) and (max-width: 1199px)</td>
+                  <td>
+                  <pre class="line-numbers">
+                      <code class="lang-css">
+                      /* Here is the css code for (min-width: 992px) and (max-width: 1199px) */
+  
+                      /* Small Devices, Mobile, SmartPhone, Iphone ----------- */
+                      @media (min-width: 992px) and (max-width: 1199px) {
+  
+                      }
+  
+                      </code>
+                  </pre>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 20%;">(min-width: 1200px) and (max-width: 1348px)</td>
+                    <td>
+                    <pre class="line-numbers">
+                        <code class="lang-css">
+                        /* Here is the css code for (min-width: 1200px) and (max-width: 1348px) */
+    
+                        /* Small Devices, Mobile, SmartPhone, Iphone ----------- */
+                        @media (min-width: 1200px) and (max-width: 1348px){
+    
+                        }
+    
+                        </code>
+                    </pre>
+                    </td>
+                    </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>				
+                <section id="fonts_used">
+                    <div class="page-header">
+                        <h3>Fonts used</h3>
+                    </div>
+                    <p> By default, the template loads <strong>Open Sans</strong> & <strong>Montserrat</strong> font from Google Web Font Services, you can change the font with the one that suits you best.</p>
+                    <p>You will find the font code in the &quot;<strong>style.css</strong>&quot; file:</p>
+<pre class="line-numbers">
+<code class="language-css">
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+</code>
+</pre>
+                </section>
+                
+                <section id="credits">
+                    <div class="page-header">
+                        <h3>Credits</h3>
+                    </div>
+                    <p> <strong>Google Fonts:</strong><br/>
+                        <a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a><br>
+                        <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a><br>
+                        <a href="https://fonts.google.com/specimen/EB+Garamond" target="_blank">EB Garamond</a><br>
+                        <a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a><br>
+                        <a href="https://fonts.google.com/specimen/Noto+Sans+JP" target="_blank">Noto Sans JP</a><br>
+                        <a href="https://fonts.google.com/specimen/Roboto+Mono" target="_blank">Roboto Mono</a><br>
+                        <a href="https://fonts.google.com/specimen/Playfair+Display" target="_blank">Playfair Display</a>
+                    <br>
+                    <p> <strong>Icon Font</strong><br>
+                    <a href="https://fontawesome.com/" target="_blank">Fontawesome</a>
+                </section>
+                
+                <section id="supports">
+                <div class="page-header">
+                <h3>Support</h3>
+                </div>
+                <p><strong>Again, thank you for purchasing this Template!</strong></p>
+                <p> If you have any questions, please use our profile contact form on Envato ( <a target="_blank" href="https://themeforest.net/user/theme_be">https://themeforest.net/user/theme_be</a> ). <br>
+                We aim to answer all questions within <strong>24 hours</strong> . In some cases the waiting time can be extended to <strong>48 hours.</strong></p>
+                <p>Email: <a href="mailto:themebe.com@gmail.com">themebe.com@gmail.com</a></p>
+                </section>
+            </article>
+            <!-- END Main content --> 
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>Copyright &copy; 2020. All right reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="footer-menu">
+                            <li><a href="mailto:support@themebe.com">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END Footer -->
+
+    </body>
+</html>
